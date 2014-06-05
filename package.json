@@ -1,0 +1,17 @@
+{
+  "name": "beercalc_js",
+  "version": "1.0.0",
+  "description": "JS class for common beer calculations for brewers.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ben Griffith",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^1.19.0"
+  }
+}
