@@ -13,5 +13,11 @@
   "license": "MIT",
   "dependencies": {
     "mocha": "^1.19.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1"
   }
 }
