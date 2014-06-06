@@ -1,4 +1,4 @@
-# Beercalc
+# Beercalc [![Build Status](https://travis-ci.org/brewerwall/beercalc_js.svg?branch=master)](https://travis-ci.org/brewerwall/beercalc_js)
 
 Beercalc is a small helper class that holds various calculations to aid in designing your own beer recipes.  
 
