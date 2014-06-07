@@ -1,8 +1,8 @@
 {
   "name": "beercalc_js",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "JS class for common beer calculations for brewers.",
-  "main": "index.js",
+  "main": "src/beercalc.js",
   "directories": {
     "test": "tests"
   },
@@ -12,11 +12,20 @@
   },
   "author": "Ben Griffith",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brewerwall/beercalc_js.git"
+  },
   "dependencies": {
     "mocha": "^1.19.0"
   },
   "devDependencies": {
     "jshint": "^2.5.1",
     "uglify-js": "^2.4.13"
-  }
+  },
+  "files": [
+    "src/beercalc.js",
+    "src/beercalc.min.js",
+    "README.md"
+  ]
 }
