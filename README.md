@@ -2,6 +2,21 @@
 
 Beercalc is a small helper class that holds various calculations to aid in designing your own beer recipes.  
 
+## Installation
+Beercalc can be used in a typical frontend setup or through node.  Both installations are pretty straight forward.
+
+NODE:
+```shell
+npm install beercalc_js
+```
+```js
+var Beercalc = require('beercalc');
+```
+
+BOWER:
+```shell
+bower install beercalc_js
+```
 
 ## Methods
 

@@ -1,0 +1,25 @@
+{
+  "name": "beercalc_js",
+  "version": "1.0.4",
+  "homepage": "https://github.com/brewerwall/beercalc_js",
+  "authors": [
+    "griffithben <griffith.ben@gmail.com>"
+  ],
+  "description": "JS class for common beer calculations for brewers.",
+  "main": "src/beercalc.js",
+  "keywords": [
+    "beer",
+    "equations",
+    "calculations",
+    "brewing",
+    "homebrew"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
