@@ -4,8 +4,8 @@ var assert = require("assert")
 describe('Beercalc', function(){
 
   describe('abv()', function(){
-    it('should return 7.204999999999992', function(){
-      assert.equal(7.204999999999992, Beercalc.abv(1.055, 1));
+    it('should return 7.319479429051208', function(){
+      assert.equal(7.319479429051208, Beercalc.abv(1.055, 1));
     });
     it('should return null', function(){
       assert.equal(null, Beercalc.abv(1, 1.055));
@@ -13,9 +13,9 @@ describe('Beercalc', function(){
     });
   });
 
-  describe('abv()', function(){
-    it('should return 5.691949999999994', function(){
-      assert.equal(5.691949999999994, Beercalc.abw(1.055, 1));
+  describe('abw()', function(){
+    it('should return 5.782388748950455', function(){
+      assert.equal(5.782388748950455, Beercalc.abw(1.055, 1));
     });
     it('should return null', function(){
       assert.equal(null, Beercalc.abw(1, 1.055));
@@ -139,8 +139,8 @@ describe('Beercalc', function(){
   });
 
   describe('calories()', function(){
-    it('should return 227.57821703464833', function(){
-      assert.equal(227.57821703464833, Beercalc.calories(1.070, 1.015)); // Based on http://hbd.org/ensmingr/
+    it('should return 234.97692128247783', function(){
+      assert.equal(234.97692128247783, Beercalc.calories(1.070, 1.015)); // Based on http://hbd.org/ensmingr/
     });
 
     it('should return null', function(){
